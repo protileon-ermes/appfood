@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content >
-  <ion-grid *ngId="data?.name">
+  <ion-grid *ngIf="data?.name">
     <ion-row>
       <ion-label>
         <h1>{{data?.name}}</h1>
