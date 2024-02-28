@@ -8,7 +8,7 @@ import { IonicSlides } from '@ionic/angular';
 })
 export class BannerComponent  implements OnInit {
   swiperModules = {IonicSlides};
-  @Input() bannerImages;
+  @Input() bannerImages: any;
   constructor() { }
 
   ngOnInit() {}
